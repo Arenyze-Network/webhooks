@@ -9,5 +9,5 @@
     "types": ["node"],
     "lib": ["ES2022", "DOM"]
   },
-  "include": ["index.d.ts", "test/types-check.ts"]
+  "include": ["index.d.ts", "typecheck/consumer.ts"]
 }
