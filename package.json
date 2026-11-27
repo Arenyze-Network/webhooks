@@ -1,0 +1,66 @@
+{
+  "name": "@arenyze/webhooks",
+  "version": "0.1.0",
+  "description": "Official Arenyze webhooks receiver: signature verification, typed events, Express / Fastify / Next.js middleware, replay and duplicate protection, test events.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "index.d.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arenyze-Network/webhooks.git"
+  },
+  "homepage": "https://docs.arenyze.com/webhooks",
+  "bugs": {
+    "url": "https://github.com/Arenyze-Network/webhooks/issues"
+  },
+  "funding": "https://buymeacoffee.com/mazeor",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "arenyze",
+    "webhooks",
+    "webhook",
+    "hmac",
+    "signature",
+    "express",
+    "fastify",
+    "nextjs",
+    "middleware",
+    "rainbow-six-siege",
+    "r6",
+    "the-finals",
+    "thefinals",
+    "arknights-endfield",
+    "endfield",
+    "rank-tracker",
+    "gaming-api"
+  ],
+  "author": "mazeor",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "express": "^5.3.0",
+    "fastify": "^5.12.8",
+    "typescript": "^5.9.3"
+  }
+}
